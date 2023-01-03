@@ -7,12 +7,21 @@ The pipeline is implemented for UIT-AIChallenge2022 consisting of text detection
 <p>
   <img src="visualization/out_im0006.png" alt="Sample Image" style="height: 100%; width: 100%;">
 </p>
+* KHUYẾN-NGUYỄN
 <p>
     <img src="visualization/out_im0011.png" alt="Sample Image" style="height: 50%; width: 50%;"><img src="visualization/out_im0014.png" alt="Sample Image" style="height: 50%; width: 50%;">
 </p>
+
+* CONVENTION-OMEGA-OMAGA
+
+* SaleOff-XẢ-XẢ-THU-173-CHƯA-XẢ-100K-HÀNG-XẢ-BUỒN-ĐỒNG-10-120K-CỰC-SỐC-GIÁ-....
 <p>
     <img src="visualization/out_im0012.png" alt="Sample Image" style="height: 50%; width: 50%;"><img src="visualization/out_im0013.png" alt="Sample Image" style="height: 50%; width: 50%;">
 </p>
+
+* TIỆM-TRÀ
+
+* SALE-SALE-Collectpoint
 
 # Data pre-processing
 
