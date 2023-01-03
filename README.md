@@ -22,7 +22,18 @@ The pipeline is implemented for UIT-AIChallenge2022 consisting of text detection
 * TIỆM-TRÀ
 
 * SALE-SALE-Collectpoint
-
+# Environment Setup
+```python 
+conda create -n E2EWordArtDetRec python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision==0.11.0 -c pytorch -y
+conda activate E2EWordArtDetRec
+!pip install openmim
+!mim install mmdet==2.25.0
+!mim install mmocr
+!mim install mmcv==1.6.0
+%cd mmocr
+!pip install -v -e .
+%cd ../
+```
 # Data pre-processing
 
 ## Text Detection
