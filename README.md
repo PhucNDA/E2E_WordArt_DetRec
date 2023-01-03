@@ -4,7 +4,36 @@ End2End pipeline for WordArt Text Detection and Recognition (Eng-Vie)
 The pipeline is implemented for UIT-AIChallenge2022 consisting of text detection and text recognition. 
 * For detection we use the Mask R-CNN (ResNext101-DCNv2_pretrainedImageNet) for precise segmentation. 
 * For Recognition we use the VGG_Transformer for accurate OCR. 
+<p>
+  <img src="visualization/out_im0006.png" alt="Sample Image" style="height: 100%; width: 100%;">
+</p>
+* KHUYẾN-NGUYỄN
+<p>
+    <img src="visualization/out_im0011.png" alt="Sample Image" style="height: 50%; width: 50%;"><img src="visualization/out_im0014.png" alt="Sample Image" style="height: 50%; width: 50%;">
+</p>
 
+* CONVENTION-OMEGA-OMAGA
+
+* SaleOff-XẢ-XẢ-THU-173-CHƯA-XẢ-100K-HÀNG-XẢ-BUỒN-ĐỒNG-10-120K-CỰC-SỐC-GIÁ-....
+<p>
+    <img src="visualization/out_im0012.png" alt="Sample Image" style="height: 50%; width: 50%;"><img src="visualization/out_im0013.png" alt="Sample Image" style="height: 50%; width: 50%;">
+</p>
+
+* TIỆM-TRÀ
+
+* SALE-SALE-Collectpoint
+# Environment Setup
+```python 
+conda create -n E2EWordArtDetRec python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision==0.11.0 -c pytorch -y
+conda activate E2EWordArtDetRec
+!pip install openmim
+!mim install mmdet==2.25.0
+!mim install mmocr
+!mim install mmcv==1.6.0
+%cd mmocr
+!pip install -v -e .
+%cd ../
+```
 # Data pre-processing
 
 ## Text Detection
