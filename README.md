@@ -110,8 +110,17 @@ cd mmocr
 python tools/train.py ./configuration/maskrcnn_resnext101_DCN_160e_icdar
 ```
 ## Text Recognition
+We must prepare for the pretrained Vietnamese weights [weights](https://drive.google.com/file/d/13327Y1tz1ohsm5YZMyXVMPIOjoOA0OaA/view?usp=sharing):
+
+    vietocr
+    ├── weights
+    │   ├── transformerocr.pth
+
 Run the following code, modifying hyper-params in train.py:
 ```python
 cd vietocr
 python train.py
 ```
+After running following comand, it will automatically convert data format to .lmdb and train your model
+
+# Testing
