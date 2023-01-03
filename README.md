@@ -19,7 +19,7 @@ The pipeline is implemented for UIT-AIChallenge2022 consisting of text detection
     <img src="visualization/out_im0012.png" alt="Sample Image" style="height: 50%; width: 50%;"><img src="visualization/out_im0013.png" alt="Sample Image" style="height: 50%; width: 50%;">
 </p>
 
-* TIỆM-TRÀ
+* trò-tiệm
 
 * SALE-SALE-Collectpoint
 # Environment Setup
@@ -67,6 +67,11 @@ The json dictionary format for each image polygon (multiple vertices):
   },
 ]
 ```
+
+![Alt text](visualization/polygon_interpolation.png?raw=true "Polygon")
+
+We interpolate multiple vertices polygon into 4 vertices polygon for easy segmentation
+
 The .txt text ICDAR2015 style format for each image polygon (4 vertices):
 ```python
 228,58,51,58,51,262,227,262,Ô
