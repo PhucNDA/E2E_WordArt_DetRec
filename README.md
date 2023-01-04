@@ -14,10 +14,10 @@ Our pipeline achieves State-of-the-art performance reaching top-3 in the public 
 | Serial | Full name              | Github                                               | Email                   |
 | ------ | ----------------------:|-----------------------------------------------------:|-------------------------:
 | 1      | Nguyễn Đức Anh Phúc |[PhucNDA](https://github.com/PhucNDA)          |phucnda@gmail.com   |
-| 2      | Ngô Văn Tấn Lưu |[tanluuuuuuu](https://github.com/tanluuuuuuu)          |20521494@gm.uit.edu.vn   |
+| 2      | Ngô Văn Tấn Lưu |[tanluuuuuuu](https://github.com/tanluuuuuuu)          |20521591@gm.uit.edu.vn   |
 | 3      | Huỳnh Viết Tuấn Kiệt |[hiimking1509](https://github.com/HiImKing1509)          |20521494@gm.uit.edu.vn   |
 | 4      | Lê Việt Thịnh |[levietthinh](https://github.com/levietthinh)          |vietthinh101@gmail.com   |
-| 5      | Trương Thành Thắng |[erwin24092002](https://github.com/erwin24092002)          |20521494@gm.uit.edu.vn   |
+| 5      | Trương Thành Thắng |[erwin24092002](https://github.com/erwin24092002)          |20521907@gm.uit.edu.vn   |
 
 ## Figures
 <p>
