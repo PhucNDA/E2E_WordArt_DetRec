@@ -18,7 +18,7 @@ The pipeline is implemented for UIT-AIChallenge2022 consisting of text detection
 <p>
   <img src="visualization/out_im0006.png" alt="Sample Image" style="height: 100%; width: 100%;">
 </p>
-* KHUYẾN-NGUYỄN
+* KHUYÊN-NGUYỄN
 <p>
     <img src="visualization/out_im0011.png" alt="Sample Image" style="height: 50%; width: 50%;"><img src="visualization/out_im0014.png" alt="Sample Image" style="height: 50%; width: 50%;">
 </p>
