@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from tqdm import tqdm
-from mmocr.mmocr.utils.ocr import MMOCR
+from mmocr.utils.ocr import MMOCR
 from PIL import Image
 
 from vietocr.tool.predictor import Predictor
