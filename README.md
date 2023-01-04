@@ -4,6 +4,17 @@ End2End pipeline for WordArt Text Detection and Recognition (Eng-Vie)
 The pipeline is implemented for UIT-AIChallenge2022 consisting of text detection and text recognition. 
 * For detection we use the Mask R-CNN (ResNext101-DCNv2_pretrainedImageNet) for precise segmentation. 
 * For Recognition we use the VGG_Transformer for accurate OCR. 
+
+## Contributors
+| Serial | Full name              | Github                                               | Email                   |
+| ------ | ----------------------:|-----------------------------------------------------:|-------------------------:
+| 1      | Nguyễn Đức Anh Phúc |[PhucNDA](https://github.com/PhucNDA)          |phucnda@gmail.com   |
+| 2      | Ngô Văn Tấn Lưu |[tanluuuuuuu](https://github.com/tanluuuuuuu)          |20521494@gm.uit.edu.vn   |
+| 3      | Huỳnh Viết Tuấn Kiệt |[hiimking1509](https://github.com/HiImKing1509)          |20521494@gm.uit.edu.vn   |
+| 4      | Lê Việt Thịnh |[levietthinh](https://github.com/levietthinh)          |20521494@gm.uit.edu.vn   |
+| 5      | Trương Thành Thắng |[erwin24092002](https://github.com/erwin24092002)          |20521494@gm.uit.edu.vn   |
+
+
 <p>
   <img src="visualization/out_im0006.png" alt="Sample Image" style="height: 100%; width: 100%;">
 </p>
