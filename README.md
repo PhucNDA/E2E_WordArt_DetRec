@@ -33,6 +33,7 @@ conda activate E2EWordArtDetRec
 %cd mmocr
 !pip install -v -e .
 %cd ../
+!pip install --quiet vietocr
 ```
 # Data pre-processing
 
