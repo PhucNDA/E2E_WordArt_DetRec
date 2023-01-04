@@ -7,7 +7,7 @@ The pipeline is implemented for UIT-AIChallenge2022 consisting of text detection
 
 Our pipeline achieves State-of-the-art performance reaching top-3 in the public test with the F1 score of 63.33 (Team: Dreamy Knights)
 <p>
-  <img src="visualization/result_publictest.png" alt="Sample Image" style="height: 50%; width: 50%;"><img src="visualization/result_private.png" alt="Sample Image" style="height: 50%; width: 50%;">
+  <img src="visualization/result_private.png" alt="Sample Image" style="height: 50%; width: 50%;"><img src="visualization/result_private.png" alt="Sample Image" style="height: 50%; width: 50%;">
 </p>
 
 ## Contributors
