@@ -159,3 +159,31 @@ python train.py
 After running following comand, it will automatically convert data format to .lmdb and train your model
 
 # Testing
+To run end2end testing model, run the following line:
+```python
+python e2e_inference.py --config 'configuration/maskrcnn_resnext101_DCN_160e_icdar.py' --det_weights <detection_weights> --rec_weights <recognition_weights> --input_images <input_images_directory> --output_destination <output_directory> 
+```
+For instance:
+```python 
+python e2e_inference.py --config 'configuration/maskrcnn_resnext101_DCN_160e_icdar.py' --det_weights '../work_dirs/maskrcnn_resnext101_DCN_160e_icdar_btc/epoch_150.pth' --rec_weights '../vietocr/weights/transformerocr_btc.pth' --input_images '../AIC/uaic2022_public_valid/images' --output_destination 'temporary' 
+```
+It will automatically localize text and crop them out for OCR, output will be a list of txt files containing:
+```python
+4,41,144,41,144,8,4,8,MUA
+241,47,397,47,397,14,241,14,TẶNG
+```
+After running the output data tree will be:
+
+    Home
+    ├── temporary
+    │   ├── predicted
+    │   │   ├── im0001.txt
+    │   │   ├── im0002.txt
+    │   │   ├── ...
+    │   ├── out_im0001.json
+    │   ├── out_im0001.png
+    │   ├── out_im0002.json
+    │   ├── out_im0002.png    
+    │   ├── ...      
+    
+You might want to change the detection threshold. The threshold is 0.8 by default
