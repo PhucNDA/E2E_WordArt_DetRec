@@ -167,6 +167,10 @@ For instance:
 ```python 
 python e2e_inference.py --config 'configuration/maskrcnn_resnext101_DCN_160e_icdar.py' --det_weights '../work_dirs/maskrcnn_resnext101_DCN_160e_icdar_btc/epoch_150.pth' --rec_weights '../vietocr/weights/transformerocr_btc.pth' --input_images '../AIC/uaic2022_public_valid/images' --output_destination 'temporary' 
 ```
+Detection training [Det weights](https://drive.google.com/file/d/1sFvpN_lhEWBjkkjcvokp7JgPPn-S_YuK/view?usp=share_link)
+
+OCR training [OCR weights](https://drive.google.com/file/d/1ePhYVpUtOVGUv6F6gtUqBEijZD2dZd4M/view?usp=share_link)
+
 It will automatically localize text and crop them out for OCR, output will be a list of txt files containing:
 ```python
 4,41,144,41,144,8,4,8,MUA
