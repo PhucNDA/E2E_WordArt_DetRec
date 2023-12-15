@@ -44,14 +44,17 @@ Our pipeline achieves State-of-the-art performance reaching top-3 in the public 
 ```python 
 conda create -n E2EWordArtDetRec python=3.8 pytorch=1.10 cudatoolkit=11.3 torchvision==0.11.0 -c pytorch -y
 conda activate E2EWordArtDetRec
-!pip install openmim
-!mim install mmdet==2.25.0
-!mim install mmocr
-!mim install mmcv==1.6.0
+!pip install mmdet==2.25.0
+!pip install mmcv==1.6.0
+# Install locally mmocr==0.6.3
 %cd mmocr
 !pip install -v -e .
 %cd ../
+# Install from pip for testing
 !pip install --quiet vietocr
+# For training, install locally from this source
+%cd vietocr
+python setup.py
 ```
 # Data pre-processing
 
