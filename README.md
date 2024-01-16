@@ -5,7 +5,7 @@ The pipeline is implemented for UIT-AIChallenge2022 consisting of text detection
 * For detection we use the Mask R-CNN (ResNext101-DCNv2_pretrainedImageNet, finetune ICDAR+WordArt) for precise segmentation. 
 * For Recognition we use the VGG_Transformer for accurate OCR. 
 
-Our pipeline achieves State-of-the-art performance reaching top-3 in the public test with the F1 score of 63.33 and 62.56 on private test 
+Our pipeline achieves "good" performance reaching top-3 in the public test with the F1 score of 63.33 and 62.56 on private test 
 
 (Team: Dreamy Knights)
 <p>
