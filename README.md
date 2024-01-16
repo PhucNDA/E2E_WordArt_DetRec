@@ -52,6 +52,8 @@ conda activate E2EWordArtDetRec
 %cd ../
 # Install from pip for testing
 !pip install --quiet vietocr
+# Some rotation augmentation added in here
+!pip install mmrotate
 # For training, install locally from this source
 %cd vietocr
 python setup.py
